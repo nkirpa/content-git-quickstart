@@ -6,10 +6,27 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body id="home" class="open-left">
-        <section class="center">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+                <li><a href="#" >Item 1 </a></li>
+            </ul>
+        </div>
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
             <header>
                 <nav>
-                    Navigation 123
+                    <ul>
+                        <li><a href="#" >Item 1 </a></li>
+                        <li><a href="#" >Item 1 </a></li>
+                        <li><a href="#" >Item 1 </a></li>
+                    </ul>
                 </nav>
             </header>
             <section>
@@ -21,21 +38,13 @@
                                 The figure image caption
                             </figcaption>
                         </figure>
-                        <div class="responsive-vid">
-                          <video controls autoplay muted loop preload width="600" hight="350">
-                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/ogg">
-                        </video>
-                        </div>
-                        <div class="responsive-vid">
-                            <iframe width="600" height="350" src="https://www.youtube.com/watch?v=YxSYMRLmwDk"></iframe>
-                        </div>
+
                     </article>
                 </main>
             </section>
             <footer>
             </footer>
-        </section>
+        </div>
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
