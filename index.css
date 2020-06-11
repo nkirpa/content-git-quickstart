@@ -12,3 +12,23 @@ h1 {
 /* font-size:large */
 font-size:200%
 }
+/* Объявляем класс через знак . (точка).
+стиль применится для всех элементов страницы,
+для которых было указано это имя класса */
+.box {
+    border: 2px solid;
+    background-color: white;
+}
+/* объявляем id через символ #
+Значение id должно быть уникальным  */
+#classes {
+    color: slateblue;
+}
+#ids {
+    color: tomato;
+}
+/* Только элементы с жирным выделением в родительской секции с id=Classes
+и в списке элемента с id=ids */
+#classes > P > b, #ids li > b {
+    color: goldenrod;
+}
