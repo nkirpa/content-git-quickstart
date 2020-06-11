@@ -1,19 +1,21 @@
-.box {
-    margin: 20px;
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+body {
+    background-color: #3D85C6;
+    color: rgba(0,0,0,.8);
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.hidden {
-  /* display со значением None Используется когда
-  необходимо совсем удалить объект из документа, тогда другие
-  элементы перемещаются на его место */
-    /* display: none; */
-    /*visibility: hidden используется когда необходимо
-    скрыть объект , не отображать, но он продолжает
-    существовать в документе, элементы не занимают его метсто  */
-    /* visibility: hidden; */
-    /* с помощью атрибута opacity можно менять
-    "прозрачность" объекта, и если установить в значение 0,
-    то объект не будет виден пользователю, если использовать
-    дробные значения (.5 или .23), то объект будет отображаться с указанной
-    степенью прозрачности  */
-    opacity: 0.4;
+
+.font {
+  /* можно указать два и более шрифта через запятую для того, чтобы
+  браузер мог использовать второй или последующие шрифты, если не найдет первый (по умолчанию) */
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  /* Можно записать всё одной строкой */
+  font: italic bold 40px 'Black Han Sans', arial, sans-serif;
+  }
 }
