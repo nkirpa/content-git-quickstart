@@ -1,32 +1,52 @@
-body {
-    padding-bottom: 100px;
-}
-
-.first {
-  position:relative;
-  top:-40px;
-  margin-bottom: -40px;
-
-}
-.second {
-  position: relative;
-}
-.ribbon {
-  position:absolute;
-  top: 0;
-  right:20px;
-}
-.toplink {
-  position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-}
+/* выделить первый элемент в списке */
+/*
+ul li:first-child a {
+    color: tomato;
+} */
+/* выделить последний элемент в списке */
+/* ul li:last-child a {
+    color: tomato;
+} */
 
 
-/*  Extra info on position property
-    https://www.w3schools.com/cssref/pr_class_position.asp
-    */
+/* изменить цвет и шрифт в активном состоянии (тап, клик) */
+/* ul li a:active {
+    color: tomato;
+    font-size: 2em;
+} */
+
+/* изменить цвет посещенной ссылки */
+/* ul li a:visited {
+    color: tomato;
+    font-size: 2em;
+} */
+
+/* менять формат при наведении мыши */
+/* ul li a:hover {
+    color: tomato;
+    font-size: 2em;
+} */
+
+/* Выделить элемент в списке, номер которого указан в скобках */
+/*
+ul li:nth-child(5) a {
+    color: tomato;
+} */
+
+/* псевдо-классы, определяются знаком :: */
+
+ul a:hover::before {
+    content: ">  ";
+    color: red;
+    margin-right: 20px;
+}
+
+
+
+/*
+    Pseudo Elements
+    https://www.w3schools.com/css/css_pseudo_elements.asp
+
+    Psudo Classes
+    https://www.w3schools.com/css/css_pseudo_classes.asp
+ */
