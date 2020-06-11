@@ -1,12 +1,11 @@
 
 /* Определение ширины с помощью пикселей */
-.bar {
+/* .bar {
     width: 400px;
 }
 .progress {
     width: 200px;
-}
-
+} */
 /* Определение ширины с помощью em */
 /* .bar {
     font-size: 8px;
@@ -23,3 +22,22 @@
 .progress {
     width: 50%;
 } */
+/* Использование цветов */
+.box {
+background-color: rgb(249, 170, 245);
+
+}
+
+
+/*  COLOR NAMES LIST:
+    https://www.w3schools.com/cssref/css_colors.asp
+    */
+
+/*  COLOR TYPES:
+    https://www.w3schools.com/cssref/css_colors_legal.asp
+    */
+
+/*  ONLINE COLOR TOOLS:
+    https://htmlcolorcodes.com/
+    https://coolors.co
+    */
