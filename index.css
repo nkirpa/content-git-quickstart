@@ -1,21 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
-body {
-    background-color: #3D85C6;
-    color: rgba(0,0,0,.8);
-    height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.inline {
+    background-color: slateblue;
+    color: white;
+    padding: 2px 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
 }
-
-.font {
-  /* можно указать два и более шрифта через запятую для того, чтобы
-  браузер мог использовать второй или последующие шрифты, если не найдет первый (по умолчанию) */
-  font-family: arial, sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  /* Можно записать всё одной строкой */
-  font: italic bold 40px 'Black Han Sans', arial, sans-serif;
-  }
+.block {
+    /* border: 2px solid tomato; */
+    /* padding: 5px; */
 }
