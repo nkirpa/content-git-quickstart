@@ -1,15 +1,9 @@
-#id {
-    background-color: blueviolet;
+#inline * {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
 }
-html .class {
-    background-color: tomato;
-}
-.class {
-    background-color: goldenrod;
-}
-html body {
-    background-color: aqua;
-}
-body {
-    background-color: goldenrod;
+#block * {
+    width: 200px;
+    height: 200px;
 }
